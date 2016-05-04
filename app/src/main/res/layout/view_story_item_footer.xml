@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<hn.nrk.com.hackernewsclient.views.FooterWithTopDividerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="@dimen/button_root_height"
+  android:orientation="horizontal">
+
+  <ImageButton
+      android:id="@+id/article_vote_action"
+      android:layout_width="@dimen/feed_action_button_width"
+      android:layout_height="@dimen/feed_action_button_height"
+      android:background="@drawable/selector_card_button"
+      android:adjustViewBounds="true"
+      android:src="@drawable/ic_vote" />
+
+  <ImageButton
+      android:id="@+id/article_share_action"
+      android:layout_width="@dimen/feed_action_button_width"
+      android:layout_height="@dimen/feed_action_button_height"
+      android:background="@drawable/selector_card_button"
+      android:adjustViewBounds="true"
+      android:src="@drawable/ic_share_footer" />
+
+  <ImageButton
+      android:id="@+id/article_bookmark_action"
+      android:layout_width="@dimen/feed_action_button_width"
+      android:layout_height="@dimen/feed_action_button_height"
+      android:visibility="gone"
+      android:background="@drawable/selector_card_button"
+      android:adjustViewBounds="true"
+      android:src="@drawable/selector_bookmark" />
+
+
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:gravity="right">
+    <TextView
+
+        android:background="@drawable/selector_card_button"
+        android:id="@+id/article_comments_label"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:textColor="@color/dark_orange"
+        android:paddingLeft="@dimen/card_content_padding"
+        android:paddingRight="@dimen/card_content_padding"
+        tools:text="26 comments" />
+
+    <ImageButton
+        android:id="@+id/article_external_action"
+        android:layout_width="@dimen/feed_action_button_width"
+        android:layout_height="@dimen/feed_action_button_height"
+        android:background="@drawable/selector_card_button"
+        android:adjustViewBounds="true"
+        android:src="@drawable/ic_open_in_browser" />
+
+  </LinearLayout>
+
+</hn.nrk.com.hackernewsclient.views.FooterWithTopDividerLayout>

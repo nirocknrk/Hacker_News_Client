@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="hn.nrk.com.hackernewsclient" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:name=".HNClientApp"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <!--<activity-->
+            <!--android:name=".MainActivity"-->
+            <!--android:label="@string/app_name"-->
+            <!--android:theme="@style/AppTheme.NoActionBar" >-->
+            <!--<intent-filter>-->
+                <!--&lt;!&ndash;<action android:name="android.intent.action.MAIN" />&ndash;&gt;-->
+
+                <!--&lt;!&ndash;<category android:name="android.intent.category.LAUNCHER" />&ndash;&gt;-->
+            <!--</intent-filter>-->
+        <!--</activity>-->
+
+        <activity
+            android:name=".Main2Activity"
+             >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".views.activity.BookmarksActivity"
+            android:label="@string/title_bookmarks"
+            />
+
+        <activity
+            android:name=".views.activity.NewsActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+             />
+
+        <activity android:name=".views.activity.comments.CommentsActivity" />
+
+        <activity
+            android:name=".views.activity.SettingsActivity"
+            android:label="@string/title_about"
+             />
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="3be4f4f1f0064a10adda722d2244bc317fcca842" />
+
+       <meta-data
+        android:name="com.google.android.gms.version"
+        android:value="@integer/google_play_services_version" />
+    </application>
+
+
+</manifest>

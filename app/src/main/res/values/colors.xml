@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="peach">#ffeddb</color>
+    <color name="peach_dark">#d8c9b9</color>
+    <color name="red_dark">#871f08</color>
+    <color name="red_dark_washedout">#9e402c</color>
+    <color name="gray_comments_information">#9c9186</color>
+    <color name="gray_comments_divider">#b8ab9e</color>
+    <color name="dark_gray_post_title">#262321</color>
+    <color name="gray_post_title_read">#9a8e86</color>
+    <color name="gray_article_title">#797979</color>
+    <color name="gray_action_clicked">#979797</color>
+
+
+    <color name="light_orange">#3F51B5</color>
+    <color name="orange">#3F51B5</color>
+    <color name="overlay">#42000000</color>
+    <color name="selectable_button_pressed">#9e9e9e</color>
+    <color name="dark_orange">#303F9F</color>
+    <color name="black">#ff000000</color>
+    <color name="white">#ffffff</color>
+    <color name="grey">#9e9e9e</color>
+    <color name="light_grey">#ffdddddd</color>
+</resources>

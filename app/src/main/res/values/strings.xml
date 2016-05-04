@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Hacker News Client</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="more">More</string>
+    <string name="empty_topic">Topic not defined</string>
+    <string name="no_url">No URL found</string>
+    <string name="loading">loading</string>
+
+
+    <string name="settings_category_key_general">keyGeneral</string>
+    <string name="settings_category_title_general">General</string>
+
+    <string name="settings_category_key_about">keyAbout</string>
+    <string name="settings_category_title_about">About</string>
+
+    <string name="settings_key_build_version">keyBuildVersion</string>
+    <string name="settings_title_build_version">Version</string>
+
+    <string name="settings_key_build_timestamp">keyBuildTimestamp</string>
+    <string name="settings_title_build_timestamp">Build date</string>
+
+    <string name="settings_key_software_licences">keySoftwareLicenses</string>
+    <string name="settings_title_software_licences">Licenses</string>
+
+    <string name="settings_category_key_account">keyAccounts</string>
+    <string name="settings_category_title_account">My Hacker News Account</string>
+
+    <string name="settings_key_logout">keyLogout</string>
+    <string name="settings_title_logout">Sign out of Hacker News</string>
+
+    <string name="settings_category_key_community">keyFeedback</string>
+    <string name="settings_category_title_community">Feedback</string>
+
+    <string name="settings_key_community">keyCommunity</string>
+    <string name="settings_title_community">Join the Google+ Community</string>
+
+    <string name="settings_key_invite">keyInvite</string>
+    <string name="settings_title_invite">Invite your friends</string>
+
+    <string name="story_by">by %s</string>
+    <string name="story_points">%d points</string>
+    <string name="settings_value_version_number">v%s</string>
+    <string name="title_app">Hacker News Client</string>
+    <string name="title_bookmarks">My Bookmarks</string>
+    <string name="title_about">About</string>
+    <string name="title_launcher">HNC</string>
+    <string name="login_expired_message">exired</string>
+    <string name="confirm_logout_message">Are you sure</string>
+    <string name="action_logout">logout</string>
+    <string name="action_cancel">cancel</string>
+    <plurals name="story_comments">
+        <item quantity="one">%d comment</item>
+        <item quantity="other">%d comments</item>
+    </plurals>
+</resources>

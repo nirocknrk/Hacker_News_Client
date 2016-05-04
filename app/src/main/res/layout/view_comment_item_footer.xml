@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/comment_footer"
+  android:layout_width="match_parent"
+  android:layout_height="@dimen/button_root_height"
+  android:orientation="horizontal">
+
+  <ImageButton
+      android:layout_width="@dimen/feed_action_button_width"
+      android:layout_height="@dimen/feed_action_button_height"
+      android:background="@drawable/selector_card_button"
+      android:adjustViewBounds="true"
+    android:id="@+id/comment_vote_action"
+    android:src="@drawable/ic_vote" />
+
+  <ImageButton
+      android:layout_width="@dimen/feed_action_button_width"
+      android:layout_height="@dimen/feed_action_button_height"
+      android:background="@drawable/selector_card_button"
+      android:adjustViewBounds="true"
+    android:id="@+id/comment_reply_action"
+    android:src="@drawable/ic_reply_small" />
+
+</LinearLayout>

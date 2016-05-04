@@ -1,0 +1,38 @@
+{
+  "project_info": {
+    "project_number": "360011123218",
+    "project_id": "hacker-news-client-1c403"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:360011123218:android:91d05660f1ee3f01",
+        "android_client_info": {
+          "package_name": "hn.nrk.com.hackernewsclient"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1OInxOUrwp6_95LqXlslpakufoOL1jto"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-77282751-1"
+          }
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
